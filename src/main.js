@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import App from './App'
 import Home from './views/Home'
 import Category from './views/Category'
@@ -14,6 +15,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 Vue.use(VueRouter)
 Vue.use(VueResource)
+Vue.use(VueAwesomeSwiper)
 const routes=[
 		{path:'',component:Home},
 		{path:'/home',component:Home},
